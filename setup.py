@@ -5,7 +5,16 @@ setup(
     version="0.1.0",  # Versão do pacote
     packages=find_packages(),  # Encontrar automaticamente todos os pacotes
     install_requires=[  # Dependências
+        'matplotlib',
         'numpy',
+        'pygame',
+        'opencv-python',
+        'scipy',
+        'scikit-learn',
+        'autograd',
+        'pandas',
+        'jupyter'
+
     ],
     entry_points={
         "console_scripts": [
